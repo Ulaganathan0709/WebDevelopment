@@ -1,7 +1,6 @@
-import isEqual from 'lodash/isEqual.js';
-import express from 'express';
-import { createFileWithTime, readFilesInDateFolder } from './fs-utils.js';
-
+const isEqual = require('lodash/isEqual');
+const express = require('express');
+const { createFileWithTime, readFilesInDateFolder } = require('./fs-utils.js');
 const obj1 = {
     name: 'Ulaga',
     role: 'Developer & Tester',
